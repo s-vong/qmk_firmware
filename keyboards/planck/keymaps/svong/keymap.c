@@ -95,7 +95,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+-------------+------+------+------+------+------|
  * |   `  |      |      |      |      |      |      |   _  |   +  |   {  |   }  |  |   |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
- * | Caps |      |      |      |      |      |      |      |   =  |      |      |  \   |
+ * | Caps |      |      |      |      |      |      |      |   =  |   [  |   ]  |  \   |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * | Ctrl | WIN  | Alt  | VIM  | NUM  |SPACE | PGRM |      |PG HM |PG DWN|PG UP |PG END|
  * `-----------------------------------------------------------------------------------'
@@ -103,7 +103,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_PGRM] = LAYOUT_planck_grid(
     KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_BSPC,
     KC_GRV,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE,
-    KC_CLCK, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_EQL , XXXXXXX, XXXXXXX, KC_BSLS,
+    KC_CLCK, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_EQL , KC_LPRN, KC_RPRN, KC_BSLS,
     KC_LCTL, KC_LGUI, KC_LALT,  VIM   ,  NUM   , KC_SPC ,  PGRM  , XXXXXXX, KC_HOME, KC_PGDN, KC_PGUP, KC_END
 ),
 
